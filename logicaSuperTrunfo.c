@@ -143,26 +143,31 @@ int main() {
     } else { 
         printf("A segunda carta tem a maior população. \n");
     }
+
     if (area > area2) {
         printf("A primeira carta tem a maior área. \n");
     } else { 
         printf("A segunda carta tem a maior área. \n");
     }
+
     if (pib > pib2) {
         printf("A primeira carta tem o maior pib. \n");
     } else { 
         printf("A segunda carta tem o maior pib. \n");
     }
+
     if (npt > npt2) {
         printf("A primeira carta tem mais pontos turísticos. \n");
     } else { 
         printf("A segunda carta tem mais pontos turísticos. \n");
     }
+
     if (densidade_populacional < densidade_populacional2) {
         printf("A primeira carta tem a menor densidade populacional. \n");
     } else { 
         printf("A segunda carta tem a maior densidade populacional. \n");
     }
+
     if (superpoder > superpoder2) {
         printf("A primeira carta tem o maior super poder. \n");
     } else { 
