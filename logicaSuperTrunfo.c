@@ -34,6 +34,8 @@ int main() {
 
     float densidade_populacional2;
     float pib_per_capta2;
+
+    int pontos1 = 0, pontos2 = 0;
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
@@ -139,38 +141,50 @@ int main() {
     //     printf("Cidade 2 tem maior população.\n");
     // } 
     if (populacao > populacao2) {
+        pontos1++;
         printf("A primeira carta tem a maior população. \n");
     } else { 
+        pontos2++;
         printf("A segunda carta tem a maior população. \n");
     }
 
     if (area > area2) {
+        pontos1++;
         printf("A primeira carta tem a maior área. \n");
     } else { 
+        pontos2++;
         printf("A segunda carta tem a maior área. \n");
     }
 
     if (pib > pib2) {
+        pontos1++;
         printf("A primeira carta tem o maior pib. \n");
     } else { 
+        pontos2++;
         printf("A segunda carta tem o maior pib. \n");
     }
 
     if (npt > npt2) {
+        pontos1++;
         printf("A primeira carta tem mais pontos turísticos. \n");
     } else { 
+        pontos2++;
         printf("A segunda carta tem mais pontos turísticos. \n");
     }
 
     if (densidade_populacional < densidade_populacional2) {
+        pontos1++;
         printf("A primeira carta tem a menor densidade populacional. \n");
     } else { 
+        pontos2++;
         printf("A segunda carta tem a maior densidade populacional. \n");
     }
 
     if (superpoder > superpoder2) {
+        pontos1++;
         printf("A primeira carta tem o maior super poder. \n");
     } else { 
+        pontos2++;
         printf("A segunda carta tem o maior super poder. \n");
     }
            
@@ -180,6 +194,14 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+
+    // Resultado final
+    if (pontos1 > pontos2) {
+        printf("A primeira carta venceu com %d pontos contra %d.\n", pontos1, pontos2);
+    } else { 
+        (pontos2 > pontos1);
+        printf("A segunda carta venceu com %d pontos contra %d.\n", pontos2, pontos1);
+    }
 
     return 0;
     }
