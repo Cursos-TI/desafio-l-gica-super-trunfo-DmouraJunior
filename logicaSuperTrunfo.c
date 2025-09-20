@@ -198,10 +198,11 @@ int main() {
     // Resultado final
     if (pontos1 > pontos2) {
         printf("A primeira carta venceu com %d pontos contra %d.\n", pontos1, pontos2);
-    } else { 
-        (pontos2 > pontos1);
+    } else if (pontos2 > pontos1) {
         printf("A segunda carta venceu com %d pontos contra %d.\n", pontos2, pontos1);
+    } else {
+        printf("Empate! As duas cartas ficaram com %d pontos.\n", pontos1);
     }
 
     return 0;
-    }
+}
