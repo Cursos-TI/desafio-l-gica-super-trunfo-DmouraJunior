@@ -6,8 +6,20 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+    int opcao, opcao1, regras;
+    int escolhajogador, escolhapc;
+
+    printf("* Super Trunfo *\n");
+    printf("menu pricipal\n");
+	printf("1. Iniciar Jogo\n");
+	printf("2. Ver Regras\n");
+	printf("3. Sair\n");
+	printf("4. Escolha Uma Opcao: ");
+	scanf("%d", &opcao);
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
+    
     char estado;
     char estado2;
     char codigo[20];
