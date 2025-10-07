@@ -7,7 +7,7 @@
 
 int main() {
     int opcao, opcao1, opcao2, regras;
-    int escolhajogador, escolhapc;
+    int escolhajogador1, escolhajogador2;
 
     printf("* Super Trunfo *\n");
     printf("Menu Pricipal\n");
@@ -27,10 +27,40 @@ int main() {
     printf("2.Carta = Olinda-Pe(A02)\n");
     printf("3.Carta = Camaragibe-Pe(A03)\n");
     printf("4.Carta = Limoeiro-Pe(A04)\n");
-    printf("Escolha Uma Carta: ");
-    scanf("%d", &opcao2);
+    printf("Jogador 1: ");
+    scanf("%d", &escolhajogador1);
 
-    switch (opcao2){
+    switch (escolhajogador1){
+
+        case 1: 
+        printf("vc escolheu Recife\n");
+        break;
+
+        case 2:
+        printf("vc escolheu Olinda\n");
+        break;
+
+        case 3:
+        printf("vc escolheu Camaragibe\n");
+        break;
+
+        case 4:
+        printf("vc escolheu Limoeiro\n");
+        break;
+
+        default:
+		printf("opcao invalida\n");
+		break;
+    }
+
+    printf("1.Carta = Recife-Pe(A01)\n");
+    printf("2.Carta = Olinda-Pe(A02)\n");
+    printf("3.Carta = Camaragibe-Pe(A03)\n");
+    printf("4.Carta = Limoeiro-Pe(A04)\n");
+    printf("Jogador 2: ");
+    scanf("%d", &escolhajogador2);
+
+    switch (escolhajogador2){
 
         case 1: 
         printf("vc escolheu Recife\n");
