@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
@@ -29,6 +31,8 @@ int main() {
     printf("4.Carta = Limoeiro-Pe(A04)\n");
     printf("Jogador 1: ");
     scanf("%d", &escolhajogador1);
+
+    
 
     switch (escolhajogador1){
 
@@ -113,6 +117,8 @@ int main() {
 
     //DADOS DA PRIMEIRA CARTA
 
+    printf("Jogador 1, dê valores as características da sua carta\n");
+
     printf("digite a população geral: \n");
     scanf("%d", &populacao);
 
@@ -130,6 +136,8 @@ int main() {
     float superpoder = (float) (populacao + area + pib + npt + pib_per_capta);
 
     // DADOS DA SEGUNDA CARTA
+
+    printf("Jogador 2, dê valores as características da sua carta\n");
 
     printf("digite a população geral: \n");
     scanf("%d", &populacao2);
@@ -276,3 +284,10 @@ int main() {
     return 0;
 
 }
+
+
+      
+
+    
+
+
