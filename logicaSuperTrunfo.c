@@ -260,34 +260,28 @@ int main() {
 
     default:
 		printf("opcao invalida\n");
-		break;
-}
-      
+		 break;
+    }
+
+    break;
+
     case 2:
-		printf("Explicaçao das Regras !!\n");
-		printf("Vc deve escolher uma carta\n");
-		printf("Depois vc deve escolher uma das caracteristicas da carta escolhida\n");
-        printf("Agora aguarde que a máquina compare a caracteristicas escolhida\n");
-        printf("A mesma te dará o resultado\n");
-		break;
+        // Exibição das regras — somente quando o usuário digita 2 no menu
+        printf("Explicação das Regras !!\n");
+        printf("Você deve escolher uma carta.\n");
+        printf("Depois, escolha uma das características da carta escolhida.\n");
+        printf("Agora aguarde que a máquina compare as características escolhidas.\n");
+        printf("Ela mostrará o resultado para você.\n");
+        break;
 
-        case 3:
-		printf("saindo do jogo\n");
-		break;
+    case 3:
+        printf("Saindo do jogo.\n");
+        break;
 
-        default:
-		printf("opcao invalida\n");
-		break;
+    default:
+        printf("Opção inválida\n");
+        break;
+    }
+
+
 }
-
-
-    return 0;
-
-}
-
-
-      
-
-    
-
-
